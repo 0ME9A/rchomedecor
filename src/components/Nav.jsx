@@ -30,7 +30,7 @@ function Nav(props) {
                 </div>
                 <div className="nav-link flex justify-center items-center w-90 gap-5 sm:gap-8">
                     <ul className="hidden justify-center items-center gap-8 text-xl font-light lg:flex text-white">
-                        <li><Link to="/" className="hover:text-primary">Home</Link></li>
+                        <li><Link to="https://rchomedecor.netlify.app/" className="hover:text-primary">Home</Link></li>
                         <li><Link to={'/services'} target="_top" className="hover:text-primary">Services</Link></li>
                         <li><Link to={'/projects'} target="_top" className="hover:text-primary">Projects</Link></li>
                         <li><Link to={'/about'} target="_top" className="hover:text-primary">About</Link></li>

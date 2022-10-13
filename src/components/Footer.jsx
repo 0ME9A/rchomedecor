@@ -32,7 +32,7 @@ function Footer(props) {
                     <div id="footer-sitemap" className="columns">
                         <ul className="text-xl font-light grid gap-5">
                             <li><strong>Site map</strong></li>
-                            <li><Link to="/" target="_top">Home</Link></li>
+                            <li><Link to="https://rchomedecor.netlify.app/" target="_top">Home</Link></li>
                             <li><Link to="/services" target="_top">Services</Link></li>
                             <li><Link to="/projects" target="_top">Projects</Link></li>
                         </ul>

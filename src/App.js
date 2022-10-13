@@ -19,14 +19,14 @@ function App() {
     <div className="App">
       <Nav/>    
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/services" element={<ServicesPage />} />
-        <Route path="/contact" element={<ContactPage />}/>
-        <Route path="/terms_conditions" element={<TermsConditions />} />
-        <Route path="/privacy_policy" element={<PrivacyPolicy />} />
-        <Route path="/*" element={<Error />} />
+        <Route path="https://rchomedecor.netlify.app/" element={<Home />} />
+        <Route path="about" element={<AboutPage />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="services" element={<ServicesPage />} />
+        <Route path="contact" element={<ContactPage />}/>
+        <Route path="terms_conditions" element={<TermsConditions />} />
+        <Route path="privacy_policy" element={<PrivacyPolicy />} />
+        <Route path="*" element={<Error />} />
       </Routes>
       <Footer/>
     </div>
