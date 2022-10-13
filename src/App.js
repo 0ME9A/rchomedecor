@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Error from './components/Error';
 import Nav from './components/Nav';
@@ -12,23 +12,21 @@ import TermsConditions from './components/TermsConditions';
 import PrivacyPolicy from './components/PrivacyPolicy';
 
 function App() {
-  
-
-
   return (
     <div className="App">
-      <Nav/>    
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/services" element={<ServicesPage />} />
-        <Route path="/contact" element={<ContactPage />}/>
-        <Route path="/terms_conditions" element={<TermsConditions />} />
-        <Route path="/privacy_policy" element={<PrivacyPolicy />} />
-        <Route path="/*" element={<Error />} />
+        <Route path="/" element={<Nav />} >
+          <Route index element={<Home />} />
+          <Route path="about" element={<AboutPage />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="services" element={<ServicesPage />} />
+          <Route path="contact" element={<ContactPage />} />
+          <Route path="terms_conditions" element={<TermsConditions />} />
+          <Route path="privacy_policy" element={<PrivacyPolicy />} />
+          <Route path="*" element={<Error />} />
+        </Route>
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
