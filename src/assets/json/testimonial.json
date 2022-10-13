@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Robert jonson",
+        "text": "The environments we live, work, and play in are intergral to all our lives. Like the design of product and services we provide.",
+        "image": "./images/testimonial/img1.jpeg",
+        "rating": 3.4
+    },
+    {
+        "id": 2,
+        "title": "Mahendra singh rajput",
+        "text": "The environments we live, work, and play in are intergral to all our lives. Like the design of product and services we provide.",
+        "image": "./images/testimonial/img2.jpeg",
+        "rating": 4.6
+    },
+    {
+        "id": 3,
+        "title": "Manprit kaur",
+        "text": "The environments we live, work, and play in are intergral to all our lives. Like the design of product and services we provide.",
+        "image": "./images/testimonial/img3.jpeg",
+        "rating": 4
+    },
+    {
+        "id": 4,
+        "title": "Anuska Tyagi",
+        "text": "The environments we live, work, and play in are intergral to all our lives. Like the design of product and services we provide.",
+        "image": "./images/testimonial/img4.jpeg",
+        "rating": 3
+    },
+    {
+        "id": 5,
+        "title": "Gold star",
+        "text": "The environments we live, work, and play in are intergral to all our lives. Like the design of product and services we provide.",
+        "image": "./images/testimonial/img5.jpeg",
+        "rating": 2
+    },
+    {
+        "id": 6,
+        "title": "Manikarnika",
+        "text": "The environments we live, work, and play in are intergral to all our lives. Like the design of product and services we provide.",
+        "image": "./images/testimonial/img6.jpeg",
+        "rating": 3.5
+    }
+]

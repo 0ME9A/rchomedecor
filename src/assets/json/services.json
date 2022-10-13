@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "Architects",
+        "text": "We have a team of skilled, experienced & professional architects who will help you to design your dreams.",
+        "image": "/images/services/img-a1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Architects For Bungalow",
+        "text": "Get the consultation & render the responsibility to the best architects for designing splendid bungalows.",
+        "image": "/images/services/img-a2.jpg"
+    },
+    
+    {
+        "id": 3,
+        "title": "3d Interior Designers",
+        "text": "Being one of the leading organizations, we provide 3D interior designing /services as per our clients demands.",
+        "image": "/images/services/img-b1.jpg"
+    },
+    {
+        "id": 4,
+        "title": "3d Architectural Designing /services",
+        "text": "Our skilled and experienced team excels in providing 3D architectural designing /services to our clients.",
+        "image": "/images/services/img-b2.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Residence Interior Designers",
+        "text": "We are professionals Interior designers offering best designs for Residence at an affordable price.",
+        "image": "/images/services/img-e1.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Building Structural Designing /services",
+        "text": "We have an expert team to provide building structures and designing so that you get the best output out of it.",
+        "image": "/images/services/img-d2.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Commercial Interior Designers",
+        "text": "We have commercial interior designers who are expert in decorating your space and customise them.",
+        "image": "/images/services/img-e3.jpeg"
+    },
+    {
+        "id": 8,
+        "title": "Interior Designer Consultants",
+        "text": "Consult our team of expert interior designers who are well experienced in their field.",
+        "image": "/images/services/img-e2.jpg"
+    }
+]
