@@ -14,7 +14,7 @@ function Header(props) {
                 <h1 className="title-text font-extrabold md:text-8xl sm:text-6xl text-5xl">Bringing <br /><span className="animate-pulse title-text text-shadow">interior</span> to life</h1>
                 <p className="text-xl sm:text-2xl font-light max-w-lg">Understand the person or people living in a
                     home is a far greater need in design.</p>
-                    <Link to={'/contact'} target="_top" className="group px-4 w-fit py-2 text-xl sm:px-8 sm:py-4 sm:text-2xl bg-primary rounded-xl shadow-lg hover:shadow-2xl transition-all">Contact
+                    <Link to={'/contact'} target="_top" className="group px-4 w-fit py-2 text-xl sm:px-8 sm:py-4 sm:text-2xl bg-primary rounded-xl shadow-lg hover:shadow-2xl transition-all">Get a quote
                     <i className="fa-solid fa-angle-right pl-2 w-5 text-white group-hover:pl-3 transition-all "></i></Link>
                 <div className="h-20"></div>
             </div>

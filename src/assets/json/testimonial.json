@@ -1,22 +1,22 @@
 [
     {
         "id": 1,
-        "title": "Robert jonson",
-        "text": "The environments we live, work, and play in are intergral to all our lives. Like the design of product and services we provide.",
+        "title": "Sakshi Chopra",
+        "text": "Brillant work was done by your designers. Going to recommend them to my friends & family!",
         "image": "./images/testimonial/img1.jpeg",
-        "rating": 3.4
+        "rating": 4
     },
     {
         "id": 2,
         "title": "Mahendra singh rajput",
-        "text": "The environments we live, work, and play in are intergral to all our lives. Like the design of product and services we provide.",
+        "text": "Very good, knowledgeable staff. Appreciate their strong work ethics and well-versed personnel.",
         "image": "./images/testimonial/img2.jpeg",
-        "rating": 4.6
+        "rating": 5
     },
     {
         "id": 3,
         "title": "Manprit kaur",
-        "text": "The environments we live, work, and play in are intergral to all our lives. Like the design of product and services we provide.",
+        "text": "I am recommending all of you to choose Rc home decor. The company has nicely worked to give my home a new look. The team was very honestly worked and give my room a new look with attractive interior designing.",
         "image": "./images/testimonial/img3.jpeg",
         "rating": 4
     },
@@ -25,14 +25,14 @@
         "title": "Anuska Tyagi",
         "text": "The environments we live, work, and play in are intergral to all our lives. Like the design of product and services we provide.",
         "image": "./images/testimonial/img4.jpeg",
-        "rating": 3
+        "rating": 3.5
     },
     {
         "id": 5,
         "title": "Gold star",
-        "text": "The environments we live, work, and play in are intergral to all our lives. Like the design of product and services we provide.",
+        "text": "Very professional and hard working people of Rc home decor, they designed my home beautiful. Great job.",
         "image": "./images/testimonial/img5.jpeg",
-        "rating": 2
+        "rating": 4.5
     },
     {
         "id": 6,

@@ -1,12 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import CardViewer from './CardViewer';
 
 function WrapedCard(props) {
     const [previewState, setPreviewState] = useState(0)
-
-    useEffect(()=>{
-        console.log(previewState)
-    },[previewState])
     return (
         <>
             <div className="card hover:scale-110 hover:shadow-2xl hover:z-10 bg-light rounded-2xl overflow-hidden transition duration-300 ease-out hover:ease-in relative" onClick={() => {

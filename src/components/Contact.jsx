@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-escape */
 import React, { useRef, useState } from 'react';
 import SectionHeader from './SectionHeader';
 import emailjs from '@emailjs/browser';
@@ -51,8 +52,8 @@ function Contact(props) {
                 }
                 break;
             case 'message':
-                if (message.length > 254) {
-                    setMessage(message.slice(0, 254))
+                if (message.length > 499) {
+                    setMessage(message.slice(0, 499))
 
                 } else {
                     setMessage(e.target.value)
@@ -78,9 +79,9 @@ function Contact(props) {
 
         validName ? document.getElementById("name").style.backgroundColor = 'rgba(255, 100, 100, 0)' : document.getElementById("name").style.backgroundColor = 'rgb(255, 100, 100)'
 
-        if (message.length > 255) {
+        if (message.length > 500) {
             validMessage = false;
-            setMessage(message.slice(0, 255));
+            setMessage(message.slice(0, 500));
         }
         else {
             validMessage = true;
@@ -122,7 +123,7 @@ function Contact(props) {
                         <div className="contact-container-child m-auto max-w-screen-2xl w-full flex flex-col lg:flex-row justify-center gap-12">
                             <address id="contact-address" className="contact-info w-auto h-auto flex flex-col gap-3">
                                 <div className="info-list">
-                                    <h3 className="text-lg sm:text-xl text-darks"><i className="fa-solid fa-location-dot text-darks"></i> Our office address</h3>
+                                    <h3 className="text-lg sm:text-xl text-darks"><i className="fa-solid fa-location-dot text-darks"></i> Head Office Address</h3>
                                     <p className="text-darks text-sm sm:text-lg px-6 opacity-60">Shiv Kali Niwas <br /> Near Celebration The Party Point,
                                         Saristabadh, <br /> Anisabad,
                                         Patna, Bihar 800002</p>
@@ -137,14 +138,15 @@ function Contact(props) {
                                 <div className="info-list">
                                     <h3 className="text-lg sm:text-xl text-darks"><i
                                         className="fa-solid fa-envelope text-darks"></i> Email address</h3>
+                                    <a href="mailto:rudra@rchomedecor.com"
+                                        className="text-sm sm:text-lg px-6 text-darks opacity-60 block">rudra@rchomedecor.com</a>
                                     <a href="mailto:rchomedecore@gmail.com"
                                         className="text-sm sm:text-lg px-6 text-darks opacity-60">rchomedecore@gmail.com</a>
                                 </div>
                                 <div className="info-list">
                                     <h3 className="text-xl sm:text-xl text-darks"><i className="fa-solid fa-phone text-darks"></i>
                                         Call us</h3>
-                                    <a href="tel:+919876543210" className="text-darks opacity-60 text-sm sm:text-lg px-6">+91
-                                        9876543210</a>
+                                    <a href="tel:+917903021397" className="text-darks opacity-60 text-sm sm:text-lg px-6">+91 7903021397</a>
                                 </div>
                             </address>
                             <form id="contact-form" ref={form} className="contact-form w-full lg:w-1/2 h-auto flex flex-col gap-3" onSubmit={(e) => handleSubmit(e)}>
@@ -177,7 +179,7 @@ function Contact(props) {
                                         className="p-2 sm:p-3 text-darks font-light text-sm sm:text-lg w-full bg-dark border-2 border-primary rounded-xl focus:bg-light" onChange={(e) => {
                                             handleChange(e, 'message');
                                         }}></textarea>
-                                    <span className='bg-light text-darks p-1 px-2 rounded-lg float-right'>{message.length}/255</span>
+                                    <span className='bg-light text-darks p-1 px-2 rounded-lg float-right'>{message.length}/500</span>
                                 </div>
                                 <div className="btn-group w-full text-right lg:max-w-xl text-white text-sm sm:text-lg bg-dark border-primary rounded-xl overflow-hidden">
                                     <button type="submit" value="submit" className="group px-4 w-full text-right py-2 text-xl sm:px-8 sm:py-4 sm:text-2xl bg-light rounded-xl shadow-lg hover:shadow-2xl transition-all">
