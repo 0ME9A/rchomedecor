@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "title": "MEET & AGREE",
+        "text": "Meet our expert design team and let them know your requirements.",
+        "image": "./images/offers/meet.png"
+    },
+    {
+        "id": 2,
+        "title": "Personalised Designs",
+        "text": "Designed exclusively to suit you and your home.",
+        "image": "./images/offers/design.png"
+    },
+    
+    {
+        "id": 3,
+        "title": "Carefully Planned",
+        "text": "Extremely detailed so that each contractor is fully informed of their role before the project begins",
+        "image": "./images/offers/home.png"
+    },
+    {
+        "id": 4,
+        "title": "Delivery & Installation",
+        "text": "By our professional and expert logistic partners.",
+        "image": "./images/offers/delivery.png"
+    }
+
+]

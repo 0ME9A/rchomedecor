@@ -45,7 +45,7 @@ function Testimonial(props) {
                 setTestimonial(testimonial+1)
             }
             return clearInterval(interval)
-        }, 5000);
+        }, 10000);
 
     },[testimonial])
     

@@ -3,15 +3,15 @@ import Img from '../assets/img/common/background-01.png';
 import { Link } from 'react-router-dom';
 
 function Footer(props) {
-    return (
 
-        <footer className="w-full relative -mt-32 md:-mt-44">
-            <img src={Img} alt="footer-img" className="w-2/3 sm:w-1/2 h-auto " />
+    return (
+        <footer className={`w-full relative -mt-32 md:-mt-44 ${window.location.pathname==='/' || window.location.pathname==='/contact'?'bg-dark':'bg-transparent'}`}>
+            <img src={Img} alt="footer-img" className="w-2/3 sm:w-1/2 h-auto" />
             <div id="footer-contents" className="containers w-full p-5 py-32 flex flex-col gap-12 justify-center bg-dark border-t-8 border-primary">
                 <header className="flex flex-col md:flex-row justify-center py-12 pb-24 items-center gap-6 lg:gap-16">
                     <h3 id="footer-title" className="title-text text-5xl md:text-8xl normal-case animate-pulse text-shadow">Let's
                         work <span className="title-text block pl-32">together.</span></h3>
-                    <Link to={'/contact'} target="_top" id="footer-title-2" className="group px-4 py-2 text-xl sm:px-8 sm:py-4 sm:text-2xl bg-primary rounded-xl shadow-lg hover:shadow-2xl transition-all">Contact
+                    <Link to={'/contact'} target="_top" id="footer-title-2" className="group px-4 py-2 text-xl sm:px-8 sm:py-4 sm:text-2xl bg-primary rounded-xl shadow-lg hover:shadow-2xl transition-all">Get a quote
                     <i className="fa-solid fa-angle-right pl-2 w-5 text-white group-hover:pl-3 transition-all "></i></Link>
                 </header>
                 <div
@@ -19,7 +19,7 @@ function Footer(props) {
                     <div id="footer-contact" className="columns">
                         <ul className="text-xl font-light grid gap-5">
                             <li><strong className="text-3xl">Rc home decore</strong></li>
-                            <li><a href="tel:+919876543210">+91 7903021397</a></li>
+                            <li><a href="tel:+917903021397">+91 7903021397</a></li>
                             <li><a href="mailto:rudra@rchomedecor.com">rudra@rchomedecor.com</a></li>
                             <li><a href="mailto:rchomedecore@gmail.com">rchomedecore@gmail.com</a></li>
                             <li>
@@ -69,7 +69,7 @@ function Footer(props) {
                                         quote <i className="fa-solid fa-angle-right px-2 text-white"></i></button>
                                 </form>
                             </li> */}
-                            <li>
+                            <li className='mt-5'>
                                 <Link to="https://facebook.com" target="_blank" className="text-3xl p-2 "><i className="hover:text-primary fa-brands fa-facebook"></i><span className="hidden">.</span></Link>
                                 <Link to={'https://instagram.com'} target="_blank" className="text-3xl p-2 "><i className="hover:text-primary fa-brands fa-instagram"></i><span className="hidden">.</span></Link>
                                 <Link to={'https://twitter.com'} target="_blank" className="text-3xl p-2 "><i className="hover:text-primary fa-brands fa-twitter"></i><span className="hidden">.</span></Link>

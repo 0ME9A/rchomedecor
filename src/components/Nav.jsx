@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link, Outlet } from 'react-router-dom';
-import Footer from './Footer';
 
 function Nav(props) {
     const [searchState, setSearchState] = useState(0)
@@ -9,9 +8,6 @@ function Nav(props) {
     const [navColor, setNavColor] = useState('')
     const [menuIcon, setMenuIcon] = useState('fa-bars')
 
-    const searchHandler = (e) => {
-        e.preventDefault();
-    }
     window.onscroll = function (e) {
         if (window.scrollY > 0) {
             setNavColor('bg-dark')
@@ -25,10 +21,18 @@ function Nav(props) {
     return (
         <>
             <nav className={"w-full fixed top-0 z-50 px-5 " + navColor}>
+                <div className='notification-section hidden  w-full pt-3 max-w-screen-2xl mx-auto font-light lg:flex justify-between'>
+                    <div></div>
+                    <div className='contact-now '>
+                        <i className="fa-solid fa-phone"></i>
+                        <a href="tel:+917903021397" className='px-3'>+91 7903021397</a>
+                        <a href="tel:+917903021397">+91 7903021397</a>
+                    </div>
+                </div>
                 <div
-                    className="nav-contents w-full m-auto py-7 md:py-8 flex justify-between items-center max-w-screen-2xl">
+                    className="nav-contents w-full m-auto py-6 md:py-6 flex justify-between items-center max-w-screen-2xl">
                     <div className="brand font-normal text-xl sm:text-2xl">
-                        RC home decore
+                        <Link to={'/'}>RC Home Decor</Link>
                     </div>
                     <div className="nav-link flex justify-center items-center w-90 gap-5 sm:gap-8">
                         <ul className="hidden justify-center items-center gap-8 text-xl font-light lg:flex text-white">

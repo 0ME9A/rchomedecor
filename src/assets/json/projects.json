@@ -1,142 +1,142 @@
 [
     {
         "id": 1,
-        "title": "first card",
-        "text": "This is the first card",
+        "title": "Living room",
+        "text": "A great white living room.",
         "image": "./images/projects/gall-1.jpg",
-        "tags": ["hall", "room"]
+        "tags": ["hall", "room", "living room", "guest room"]
     },
     {
         "id": 2,
-        "title": "second card",
-        "text": "This is the second card",
+        "title": "Wash room",
+        "text": "Golden theme washroom with beautifully formatted interior design.",
         "image": "./images/projects/gall-2.jpg",
         "tags": ["bathroom", "washroom"]
     },
     {
         "id": 3,
-        "title": "second card",
-        "text": "This is the second card",
+        "title": "Toilet",
+        "text": "A great white toilet.",
         "image": "./images/projects/gall-3.jpg",
         "tags": ["bathroom", "toilet", "washroom"]
     },
     {
         "id": 4,
-        "title": "third card",
-        "text": "This is the third card",
+        "title": "Hall",
+        "text": "Big hall",
         "image": "./images/projects/gall-4.jpg",
-        "tags": ["hall", "room"]
+        "tags": ["hall", "room", "space"]
     },
     {
         "id": 5,
-        "title": "forth card",
-        "text": "This is the forth card",
+        "title": "Luxurious hall",
+        "text": "Luxurious hall interior design.",
         "image": "./images/projects/gall-5.jpg",
         "tags": ["hall", "stairs"]
     },
     {
         "id": 6,
-        "title": "forth card",
-        "text": "This is the forth card",
+        "title": "Modern house",
+        "text": "Modern house 3d design.",
         "image": "./images/projects/gall-6.jpg",
         "tags": ["home", "house", "modern house"]
     },
     {
         "id": 7,
-        "title": "forth card",
-        "text": "This is the forth card",
+        "title": "Moduler kitchen",
+        "text": "Awsome moduler kitchen interior design.",
         "image": "./images/projects/gall-7.jpg",
-        "tags": ["kitchen"]
+        "tags": ["kitchen", "moduler kitchen", "moduler"]
     },
     {
         "id": 8,
-        "title": "fifth card",
-        "text": "This is the fifth card",
+        "title": "Designers lights",
+        "text": "Designers lights for modern house.",
         "image": "./images/projects/gall-8.jpg",
-        "tags": ["lights", "decor"]
+        "tags": ["lights", "decor", "designers"]
     },
     {
         "id": 9,
-        "title": "fifth card",
-        "text": "This is the fifth card",
+        "title": "Living room",
+        "text": "simple and beautiful living room before decor.",
         "image": "./images/projects/gall-9.jpg",
         "tags": ["living room", "space", "hall"]
     },
     {
         "id": 10,
-        "title": "fifth card",
-        "text": "This is the fifth card",
+        "title": "Modern bathroom",
+        "text": "Modern bathroom for modern house.",
         "image": "./images/projects/gall-10.jpg",
-        "tags": ["bathroom", "washroom"]
+        "tags": ["bathroom", "washroom", "modern"]
     },
     {
         "id": 11,
-        "title": "fifth card",
-        "text": "This is the fifth card",
+        "title": "Moduler kitchen",
+        "text": "Awsome moduler kitchen interior design.",
         "image": "./images/projects/gall-11.jpg",
         "tags": ["dining room", "kitchen", "dining"]
     },
     {
         "id": 12,
-        "title": "fifth card",
-        "text": "This is the fifth card",
+        "title": "Bedroom",
+        "text": "Bedroom interior design.",
         "image": "./images/projects/gall-12.jpg",
         "tags": ["bedroom", "room"]
     },
     {
         "id": 13,
-        "title": "fifth card",
-        "text": "This is the fifth card",
+        "title": "Reading room",
+        "text": "Reading room interior design for modern house.",
         "image": "./images/projects/gall-13.jpg",
         "tags": ["dining room", "living room", "guest room"]
     },
     {
         "id": 14,
-        "title": "fifth card",
-        "text": "This is the fifth card",
+        "title": "Modern kitchen",
+        "text": "Modern kitchen interior design.",
         "image": "./images/projects/gall-14.jpg",
         "tags": ["space", "living room", "kitchen"]
     },
     {
         "id": 15,
-        "title": "fifth card",
-        "text": "This is the fifth card",
+        "title": "Modern kitchen",
+        "text": "A great white modern kitchen interior design.",
         "image": "./images/projects/gall-15.jpg",
         "tags": ["kitchen", "space"]
 
     },
     {
         "id": 16,
-        "title": "fifth card",
-        "text": "This is the fifth card",
+        "title": "Drying room",
+        "text": "Modern drying room interior design.",
         "image": "./images/projects/gall-16.jpg",
         "tags": ["space", "living room", "guest room"]
     },
     {
         "id": 17,
-        "title": "fifth card",
-        "text": "This is the fifth card",
+        "title": "Luxurious hall",
+        "text": "Luxurious hall interior design.",
         "image": "./images/projects/gall-17.jpg",
         "tags": ["space", "living room", "hall"]
     },
     {
         "id": 18,
-        "title": "fifth card",
-        "text": "This is the fifth card",
+        "title": "Big kitchen",
+        "text": "Big Modern Kitchen with living room interior design.",
         "image": "./images/projects/gall-18.jpg",
         "tags": ["living room", "kitchen", "dining room", "hall"]
     },
     {
         "id": 19,
-        "title": "fifth card",
-        "text": "This is the fifth card",
+        "title": "Modern house",
+        "text": "Modern house 3d design.",
         "image": "./images/projects/gall-19.jpg",
         "tags": ["modern house", "house", "home", "modern home"]
     },
     {
         "id": 20,
-        "title": "fifth card",
-        "text": "This is the fifth card",
+        "title": "Bedroom",
+        "text": "Bedroom interior design.",
         "image": "./images/projects/gall-20.jpg",
         "tags": ["bedroom", "bed room"]
     }

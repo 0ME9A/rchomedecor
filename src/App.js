@@ -10,10 +10,15 @@ import ServicesPage from './pages/ServicesPage';
 import ContactPage from './pages/ContactPage';
 import TermsConditions from './components/TermsConditions';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <title>Best interior designer in Patna | 3D Interior Designer | Home Decor Service – RC Home Decor</title>
+
+      </Helmet>
       <Routes>
         <Route path="/" element={<Nav />} >
           <Route index element={<Home />} />
