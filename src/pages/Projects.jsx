@@ -19,7 +19,7 @@ function Projects(props) {
                             )
                         }) :
                             ProjectsList.map((item) => {
-                                if (item['tags'].includes(window.location.search.split('=')[1])) {
+                                if (item['tags'].includes(window.location.search.split('=')[1].toLowerCase())) {
                                     return (
                                         <WrapedCard key={item.id} title={item.title} desc={item.text} img={item.image} />
                                     )
