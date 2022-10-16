@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import About from '../components/About';
 import Loading from '../components/Loading';
 
@@ -7,9 +8,12 @@ function AboutPage(props) {
     return (
         <>
         <Loading/>
-        <div className='py-32'>
+        <Helmet>
+            <title>Rc home decor || About</title>
+        </Helmet>
+        <main className='py-32'>
             <About/>
-        </div>
+        </main>
         </>
     );
 }

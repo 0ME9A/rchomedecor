@@ -20,7 +20,6 @@ function Home(props) {
             <Header />
             <Helmet>
                 <title>Best interior designer in Patna | 3D Interior Designer | Home Decor Service – RC Home Decor</title>
-
             </Helmet>
             <section id='services' className='w-full bg-dark grid gap-5 sm:gap-10 p-5 py-16 sm:py-20 lg:pt-52 sm:pt-32'>
                 <div className="cards-container max-w-screen-2xl mx-auto flex flex-wrap justify-center gap-5">
@@ -52,7 +51,7 @@ function Home(props) {
                 </div>
             </section>
             <About />
-            <section className='w-full bg-light grid gap-5 sm:gap-10 p-5 py-16 sm:py-20'>
+            <main className='w-full bg-light grid gap-5 sm:gap-10 p-5 py-16 sm:py-20'>
                 <SectionHeader secondTitle={'Projects'} title={'Our finished Projects '} />
                 <div className="cards-container max-w-screen-2xl mx-auto flex flex-wrap justify-center gap-5">
                     {
@@ -66,7 +65,7 @@ function Home(props) {
                     }
                 </div>
                 <Link to="/projects" target={'_top'} className="text-darks md:text-xl underline text-center">See more designs</Link>
-            </section>
+            </main>
             <Testimonial/>
 
             <Contact/>

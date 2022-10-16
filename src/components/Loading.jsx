@@ -6,7 +6,7 @@ function Loading(props) {
     useEffect(()=>{
         setTimeout(() => {
             setLoadingState('none')
-        }, 5000);
+        }, 3000);
     },[])
 
     return (
