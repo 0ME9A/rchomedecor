@@ -54,7 +54,7 @@ function Nav(props) {
 
                 <div className="search-container absolute p-5 left-0 drop-shadow-2xl w-full origin-top transition-all" style={{ transform: `scale(${searchState})`, opacity: `${searchState}` }}>
                     <form action="/projects" className="flex justify-center w-full max-w-screen-lg mx-auto rounded-2xl overflow-hidden">
-                        <input type="search" name="search" id="search" required title='search' placeholder='Search' className='w-full p-3 md:p-6 bg-light text-xl md:text-2xl rounded-tl-2xl rounded-bl-2xl' value={searchVal} onChange={(e) => { setSearchVal(e.target.value) }} />
+                        <input type="search" name="search" id="search" required title='search' placeholder='Search' className='w-full p-3 md:p-6 bg-light text-xl md:text-2xl rounded-tl-2xl rounded-bl-2xl' value={searchVal} onChange={(e) => { setSearchVal(e.target.value.toLowerCase()) }} />
                         <button type="submit" title="search button" value={"submit"}>
                             <i className="fa-solid fa-magnifying-glass p-3 md:p-6 text-xl md:text-2xl bg-primary"></i>
                         </button>

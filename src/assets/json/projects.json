@@ -9,7 +9,7 @@
     {
         "id": 2,
         "title": "Wash room",
-        "text": "Golden theme washroom with beautifully formatted interior design.",
+        "text": "Golden theme washroom with beautifully formatted interior design. || rc home decor",
         "image": "./images/projects/gall-2.jpg",
         "tags": ["bathroom", "washroom"]
     },
@@ -44,9 +44,9 @@
     {
         "id": 7,
         "title": "Moduler kitchen",
-        "text": "Awsome moduler kitchen interior design.",
+        "text": "Awsome moduler kitchen interior designer in patna. RC home decor",
         "image": "./images/projects/gall-7.jpg",
-        "tags": ["kitchen", "moduler kitchen", "moduler"]
+        "tags": ["kitchen", "moduler kitchen", "moduler", "modern"]
     },
     {
         "id": 8,
@@ -74,12 +74,12 @@
         "title": "Moduler kitchen",
         "text": "Awsome moduler kitchen interior design.",
         "image": "./images/projects/gall-11.jpg",
-        "tags": ["dining room", "kitchen", "dining"]
+        "tags": ["dining room", "kitchen", "moduler", "moduler kitchen", "modern", "dining"]
     },
     {
         "id": 12,
         "title": "Bedroom",
-        "text": "Bedroom interior design.",
+        "text": "Bedroom interior designer in patna. RC home decor",
         "image": "./images/projects/gall-12.jpg",
         "tags": ["bedroom", "room"]
     },
@@ -95,15 +95,14 @@
         "title": "Modern kitchen",
         "text": "Modern kitchen interior design.",
         "image": "./images/projects/gall-14.jpg",
-        "tags": ["space", "living room", "kitchen"]
+        "tags": ["space", "living room", "kitchen", "modern", "moduler kitchen", "moduler"]
     },
     {
         "id": 15,
         "title": "Modern kitchen",
         "text": "A great white modern kitchen interior design.",
         "image": "./images/projects/gall-15.jpg",
-        "tags": ["kitchen", "space"]
-
+        "tags": ["space", "living room", "kitchen", "modern", "moduler kitchen", "moduler"]
     },
     {
         "id": 16,
@@ -124,7 +123,7 @@
         "title": "Big kitchen",
         "text": "Big Modern Kitchen with living room interior design.",
         "image": "./images/projects/gall-18.jpg",
-        "tags": ["living room", "kitchen", "dining room", "hall"]
+        "tags": ["space", "living room", "kitchen", "modern", "moduler kitchen", "moduler"]
     },
     {
         "id": 19,
